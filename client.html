@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G37-Grupo5_client</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/misFuncionesClient.js"></script>
+</head>
+<body>
+    <h1>Client</h1>
+    <a href="index.html"><button >Regresar</button></a>
+    <br><br>
+    <button onclick="traerInformacion()">Consultar</button>
+    <br><br>
+    <div id="resultado">  </div>  
+    <br>
+    <div>
+        <input type="number" id="id" placeholder="id">
+        <input type="text" id="name" placeholder="name">
+        <input type="text" id="email" placeholder="email">
+        <input type="number" id="age" placeholder="age">
+    </div>
+    <br>
+    <button onclick="guardarInformacion()">Guardar!</button>
+<button onclick="editarInformacion()">Actualizar!</button>
+    
+</body>
+</html>
